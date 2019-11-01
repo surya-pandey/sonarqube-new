@@ -14,6 +14,12 @@
 		    <artifactId>poi</artifactId>
 		    <version>3.7</version>
 		</dependency>
+		
+		<plugin>
+    <groupId>org.codehaus.sonar</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>5.1</version>
+</plugin>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
